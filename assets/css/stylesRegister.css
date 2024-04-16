@@ -1,0 +1,64 @@
+:root{
+    --color1:#a9a9a9;
+    --color2:#fff;
+    --color3:#e5a82d;
+    --color4:#000000;
+    --color5:#ff0000;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(50deg,#ff0000,#e5a82d);
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    background: var(--color2);   
+    border-radius: 10px;
+}
+.loginTexto{
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--color4);
+}
+.usuario{
+    padding-top: 25px;
+    color: var(--color1);
+}
+.nombre{
+    color: var(--color1);
+}
+.password{
+    color: var(--color1);
+}
+.confirmpassword{
+    color: var(--color1);
+    padding-bottom: 50px;
+}
+.boton{
+    padding-bottom: 40px;
+}
+
+.botonRegistrarse{
+    background-color: var(--color5);
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.clickRegistrar{
+    text-decoration: none;
+    color: var(--color2);
+
+}

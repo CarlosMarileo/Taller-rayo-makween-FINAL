@@ -1,0 +1,163 @@
+:root{
+    --color1:#a9a9a9;
+    --color2:#fff;
+    --color3:#e5a82d;
+    --color4:#000000;
+    
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color1);
+}
+.imagenLogo{
+    width: 100px;
+    height: 70px;
+}
+.cont1{
+    padding-top: 25px;
+    border: none;
+    
+}
+.slide1{
+    width: 800px;
+    height: 600px;
+}
+.slide2{
+    width: 800px;
+    height: 600px;
+}
+.slide3{
+    width: 800px;
+    height: 600px;
+}
+.textoTrabajos{
+    font-size: 70px;
+    padding-bottom: 170px;
+}
+.click{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--color2);
+
+}
+.texto1{
+    font-size: 30px;
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+/*correr barra hacia la derecha pantalla completa*/ 
+.navbar-nav{
+    padding-left: 400px;
+}
+
+/*----CONTAINER QUIENES SOMOS----*/
+
+.containerInfo{
+    display: flex;
+    background-color: var(--color1);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.imagenInfo{
+    border-radius: 20px;
+}
+/*---footer---*/
+.footer{
+    display: flex;
+    background-color: var(--color4);
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.pFooter{
+    color: var(--color2);
+}
+.fa-brands{
+    color: var(--color2);
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+
+.container1{
+    background: linear-gradient(50deg,#ff0000,#e5a82d);
+    padding-top: 50px;
+}
+.contactoNombre{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactoNumero{
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerContacto{
+    display: flex;
+    padding-top: 50px;
+    
+}
+.contacto{
+    font-size: 50px;
+}
+.input{
+    display: flex;
+}
+.textoNombre{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+
+}
+.textoNumero{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+.containerComentario{
+    padding-top: 50px;
+}
+
+.textoComentario{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+    height: 100px;
+}
+.botonEnviar{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: var(--color1);
+    
+}
+.textoEnviar{
+    color: var(--color4);
+}
+.parrafo{
+    padding-top: 10px;
+}
+    
